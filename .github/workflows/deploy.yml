@@ -29,8 +29,9 @@ jobs:
       run: |
         jupyter-book build riddc
     # Deploy the book's HTML to gh-pages branch
-    - name: GitHub Pages action
-      uses: peaceiris/actions-gh-pages@v3.6.1
+    - name: Deploy to Firebase
+      uses: w9jds/firebase-action@master
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: riddc/_build/html
+        args: deploy --only hosting
+      env:
+        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
