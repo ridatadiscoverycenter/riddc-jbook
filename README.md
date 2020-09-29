@@ -29,10 +29,20 @@ Paragrah text...
 > Caption for image (repeat)
 
 ```
-
 ### Jupyter Book Docs
 
 Please, review the [Jupyter Book Documentation](https://jupyterbook.org/) before writing new content. They provide a lot of information on how to organize and write content for Jupyter Books.
+
+### How to add new notebooks
+
+To add new notebooks to RIDDC follow these steps:
+
+- Fork this repository
+- Add new notebooks or Markdown formatted articles to the directory `riddc/notebooks`
+- Add an entry to the file `riddc/_toc.yml` pointing to the notebook(s) you added. Feel free to create a section ([refer to the jupyter book documentation](https://jupyterbook.org/))
+- Build the Jupyter Book locally (see bellow).
+- Commit and push your changes.
+- When you're happy wiht the changes, open a pull request to this repository. Once approved, an admin member will merge into `main` and the changes will be auto-deployed.
 
 ## Usage
 
