@@ -1,6 +1,36 @@
-# riddc
+# Rhode Island Data Discovery Center's Jupyter Book
 
-This cookiecutter creates a simple boilerplate for a Jupyter Book.
+This repository houses the RIDDC's Jupyter Book with articles showcasing projects, analyzes and visualizations created using data from the OSM region.
+
+## Guidelines for RIDDC Articles.
+
+### Article Format
+Articles can be written in Markdown or Jupyter Notebook format (`ipynb`).
+In both cases, the first block (cell in `ipynb`) should start with a title in Markdown followed by the authors' names.
+
+If the article is divided in sections, use h2 `(##)` headers for section titles. This will help Jupyter Book to create a table of contents on the right sidebar.
+Do not use `#` before a regular paragraph.
+
+For images, use Markdown syntax with caption, in addition add the caption as a blockquote.
+
+If your notebooke was created in Colab, make sure you remove the first cell with the `Open in Colab` badge. Jupyter Book already has options to open the notebook in other platforms.
+
+Example:
+```md
+# Title
+> by Jane Doe
+> jane@brown.edu 
+
+## Section Header
+
+Paragrah text...
+
+![image](path/to/image.png "Caption for image")
+> Caption for image (repeat)
+
+```
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 ## Usage
 
@@ -14,17 +44,6 @@ If you'd like to develop on and build the riddc book, you should:
 - Run `jupyter-book build riddc/`
 
 A fully-rendered HTML version of the book will be built in `riddc/_build/html/`.
-
-### Hosting the book
-
-The html version of the book is hosted on the `gh-pages` branch of this repo. A GitHub actions workflow has been created that automatically builds and pushes the book to this branch on a push or pull request to master.
-
-If you wish to disable this automation, you may remove the GitHub actions workflow and build the book manually by:
-
-- Navigating to your local build; and running,
-- `ghp-import -n -p -f riddc/_build/html`
-
-This will automatically push your build to the `gh-pages` branch. More information on this hosting process can be found [here](https://jupyterbook.org/publish/gh-pages.html#manually-host-your-book-with-github-pages).
 
 ## Contributors
 

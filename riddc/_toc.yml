@@ -1,8 +1,9 @@
-- file: markdown/intro
-- file: notebooks/benny/first_example_aquarius
-- file: notebooks/benny/GTSPP_Data
-- file: notebooks/benny/Mapping_first_try
-- file: notebooks/benny/Sea_Surface_Height
-- file: notebooks/benny/Ultra_High_Res_SST
-- file: notebooks/benny/Wind_and_Wind_Stress
-
+- file: notebooks/fox-kemper/first_example_aquarius
+- file: notebooks/fox-kemper/GTSPP_Data
+- file: notebooks/fox-kemper/Mapping_first_try
+- file: notebooks/fox-kemper/Sea_Surface_Height
+- file: notebooks/fox-kemper/Ultra_High_Res_SST
+- file: notebooks/fox-kemper/Wind_and_Wind_Stress
+- file: notebooks/fox-kemper/Ella_summer2020
+- file: notebooks/fox-kemper/Jonny_summer2020
+- file: notebooks/fox-kemper/Seth_summer2020
