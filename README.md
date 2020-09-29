@@ -30,7 +30,9 @@ Paragrah text...
 
 ```
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+### Jupyter Book Docs
+
+Please, review the [Jupyter Book Documentation](https://jupyterbook.org/) before writing new content. They provide a lot of information on how to organize and write content for Jupyter Books.
 
 ## Usage
 
