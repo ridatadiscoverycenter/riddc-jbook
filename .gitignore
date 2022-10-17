@@ -1,6 +1,6 @@
 .DS_Store
 riddc/_build
 .venv
-bin
-lib
+bin/
+lib/
 pyvenv.cfg
