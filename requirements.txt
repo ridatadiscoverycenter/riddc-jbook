@@ -1,4 +1,7 @@
 jupyter-book
 matplotlib
 numpy
+pandas
+datetime
+netCDF4
 ghp-import
