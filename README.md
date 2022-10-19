@@ -50,7 +50,11 @@ To add new notebooks to RIDDC follow these steps:
 
 If you'd like to develop on and build the riddc book, you should:
 
-- Clone this repository and run
+- Clone this repository
+- `cd` to the repository
+- Start a python virtual environment: 
+  Mac/Unix: `python3 -m venv ./` 
+  Windows: `pythin3 -m venv .\`
 - Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
 - (Recommended) Remove the existing `riddc/_build/` directory
 - Run `jupyter-book build riddc/`
