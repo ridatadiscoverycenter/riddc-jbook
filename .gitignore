@@ -1,4 +1,5 @@
 .DS_Store
+.vscode
 riddc/_build
 .venv
 bin/
