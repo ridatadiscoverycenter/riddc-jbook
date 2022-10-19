@@ -1,5 +1,7 @@
 .DS_Store
 .vscode
+.python-version
+.ipynb_checkpoints
 riddc/_build
 .venv
 bin/
