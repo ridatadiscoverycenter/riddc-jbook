@@ -1,4 +1,6 @@
-- file: notebooks/fox-kemper/first_example_aquarius
+format: jb-article
+root: notebooks/fox-kemper/first_example_aquarius
+sections:
 - file: notebooks/fox-kemper/osom_intro
 - file: notebooks/fox-kemper/GTSPP_Data
 - file: notebooks/fox-kemper/Mapping_first_try
