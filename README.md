@@ -1,3 +1,5 @@
+![example workflow](https://github.com/ridatadiscoverycenter/riddc-jbook/actions/workflows/firebase-hosting-merge.yml/badge.svg)
+
 # Rhode Island Data Discovery Center's Jupyter Book
 
 This repository houses the RIDDC's Jupyter Book with articles showcasing projects, analyzes and visualizations created using data from the OSM region.
