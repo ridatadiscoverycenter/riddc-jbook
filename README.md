@@ -56,7 +56,7 @@ If you'd like to develop on and build the riddc book, you should:
 - `cd` to the repository
 - Start a python virtual environment: 
   Mac/Unix: `python3 -m venv ./` 
-  Windows: `pythin3 -m venv .\`
+  Windows: `python3 -m venv .\`
 - Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
 - (Recommended) Remove the existing `riddc/_build/` directory
 - Run `jupyter-book build riddc/`
