@@ -3,4 +3,4 @@ matplotlib
 numpy
 ghp-import
 bash-kernel
-volume-data-converter @ git+https://github.com/brown-ccv/volume-data-converter.git@5a62fd77fcfbd58d45e3026f6893bd5b04a9d2ec
+git+https://github.com/brown-ccv/volume-data-converter@v2.1.2
