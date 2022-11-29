@@ -6,6 +6,6 @@ riddc/_build
 .venv
 bin/
 lib/
-#etc/
-#share/
+etc/
+share/
 pyvenv.cfg
