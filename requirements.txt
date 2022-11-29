@@ -6,4 +6,3 @@ datetime
 netCDF4
 ghp-import
 bash-kernel
-nbconvert
