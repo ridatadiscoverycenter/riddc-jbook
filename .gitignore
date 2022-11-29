@@ -6,6 +6,6 @@ riddc/_build
 .venv
 bin/
 lib/
-etc/jupyter/
-share/jupyter/
+etc/
+share/
 pyvenv.cfg
