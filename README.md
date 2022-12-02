@@ -57,9 +57,17 @@ If you'd like to develop on and build the riddc book, you should:
 - Start a python virtual environment: 
   Mac/Unix: `python3 -m venv ./` 
   Windows: `python3 -m venv .\`
+  Activate the environment with `source ./bin/activate`(Mac/Linux) or `source .\bin\activate` (Windows)
+
+## Install system dependencies
+- On Mac, download Homebrew and install with `brew bundle`
+- On Windows, download Chocolatey and install with `choco install packages.config`
+
+## Install dependencies and build the book
 - Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
 - (Recommended) Remove the existing `riddc/_build/` directory
 - Run `jupyter-book build riddc/`
+- **Note:** On Mac, you may need to make the following soft link for the book to build: `ln -s /opt/homebrew/share/jupyter/nbconvert ~/Library/Jupyter`
 
 A fully-rendered HTML version of the book will be built in `riddc/_build/html/`.
 
