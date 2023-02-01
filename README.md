@@ -15,7 +15,7 @@ Do not use `#` before a regular paragraph.
 
 For images, use Markdown syntax with caption, in addition add the caption as a blockquote.
 
-If your notebooke was created in Colab, make sure you remove the first cell with the `Open in Colab` badge. Jupyter Book already has options to open the notebook in other platforms.
+If your notebook was created in Colab, make sure you remove the first cell with the `Open in Colab` badge. Jupyter Book already has options to open the notebook in other platforms.
 
 Example:
 ```md
@@ -44,7 +44,8 @@ To add new notebooks to RIDDC follow these steps:
 - Add an entry to the file `riddc/_toc.yml` pointing to the notebook(s) you added. Feel free to create a section ([refer to the jupyter book documentation](https://jupyterbook.org/))
 - Build the Jupyter Book locally (see bellow).
 - Commit and push your changes.
-- When you're happy wiht the changes, open a pull request to this repository. Once approved, an admin member will merge into `main` and the changes will be auto-deployed.
+- When you're happy with the changes, open a pull request to this 
+repository. Once approved, an admin member will merge into `main` and the changes will be auto-deployed.
 
 ## Usage
 
@@ -57,7 +58,8 @@ If you'd like to develop on and build the riddc book, you should:
 - Start a python virtual environment: 
   Mac/Unix: `python3 -m venv ./` 
   Windows: `python3 -m venv .\`
-  Activate the environment with `source ./bin/activate`(Mac/Linux) or `source .\bin\activate` (Windows)
+- Activate the environment with `source ./bin/activate`(Mac/Linux) or 
+`source .\bin\activate` (Windows)
 
 ## Install system dependencies
 - On Mac, download Homebrew and install with `brew bundle`
@@ -65,7 +67,8 @@ If you'd like to develop on and build the riddc book, you should:
 
 ## Install dependencies and build the book
 - Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
-- (Recommended) Remove the existing `riddc/_build/` directory
+- (Recommended) Remove the existing `riddc/_build/` directory with `rm -rf 
+riddc/_build/`
 - Run `jupyter-book build riddc/`
 - **Note:** On Mac, you may need to make the following soft link for the book to build: `ln -s /opt/homebrew/share/jupyter/nbconvert ~/Library/Jupyter`
 
