@@ -9,3 +9,4 @@ lib/
 etc/
 share/
 pyvenv.cfg
+plots/
