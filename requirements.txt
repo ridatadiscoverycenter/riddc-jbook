@@ -7,4 +7,4 @@ h5py
 netCDF4
 ghp-import
 bash-kernel
-git+https://github.com/brown-ccv/volume-data-converter@v2.1.4
+git+https://github.com/brown-ccv/volume-data-converter@v2.2.2
