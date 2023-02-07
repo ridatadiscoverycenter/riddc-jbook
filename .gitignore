@@ -10,3 +10,4 @@ etc/
 share/
 plots/
 pyvenv.cfg
+!plots/tide_plots/.gitkeep
