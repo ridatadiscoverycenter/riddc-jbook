@@ -3,7 +3,6 @@ matplotlib
 numpy
 pandas
 datetime
-h5py
 netCDF4
 ghp-import
 bash-kernel
