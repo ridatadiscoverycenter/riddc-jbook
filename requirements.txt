@@ -1,9 +1,11 @@
-jupyter-book
+tornado >= 5.0
+jupyter-book >= 0.12
 matplotlib
 numpy
 pandas
 datetime
-netCDF4
+h5py
+netcdf4
 ghp-import
 bash-kernel
 git+https://github.com/brown-ccv/volume-data-converter@v2.2.2

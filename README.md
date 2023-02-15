@@ -49,27 +49,28 @@ repository. Once approved, an admin member will merge into `main` and the change
 
 ## Usage
 
-### Building the book
+### Build the environment and install dependencies
 
 If you'd like to develop on and build the riddc book, you should:
 
 - Clone this repository
 - `cd` to the repository
-- Start a python virtual environment: 
-  Mac/Unix: `python3 -m venv ./` 
-  Windows: `python3 -m venv .\`
-- Activate the environment with `source ./bin/activate`(Mac/Linux) or 
-`source .\bin\activate` (Windows)
+- Use `asdf` to install the current version of Python supported by Google Colab
+  * `asdf plugin-add python`
+  * `asdf install python 3.8.10` - as of February, 2023, this is the version in Colab
+  * `asdf local python 3.8.10` - sets the python version for the repo
+- Start a pipenv virtual environment: 
+  `pipenv --python 3.8.10` - this will ingest the `requirements.txt` file and create a `Pipfile` containing the dependencies as well as the Python version for the environment. 
+- Activate the environment with `pipenv shell`
 
 ## Install system dependencies
 - On Mac: download Homebrew and install with `brew bundle`
+  * with the Mac M1 chip, run `export HDF5_DIR=/opt/homebrew/opt/hdf5`
 - On Windows:
-  * first download HDF5 from source: `https://www.hdfgroup.org/downloads/hdf5/source-code/`
+  * first download HDF5 from source: `https://support.hdfgroup.org/ftp/HDF5/current/bin/`
   * download Chocolatey and install with `choco install packages.config`
   
-
-## Install dependencies and build the book
-- Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
+## Build the book
 - (Recommended) Remove the existing `riddc/_build/` directory with `rm -rf 
 riddc/_build/`
 - Run `jupyter-book build riddc/`
