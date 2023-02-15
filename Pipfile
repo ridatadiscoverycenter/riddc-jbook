@@ -17,6 +17,9 @@ bash-kernel = "*"
 jupyter-console = "*"
 jupyter = "*"
 notebook = "*"
+nbconvert = "*"
+jupyter-server = "*"
+netcdf4 = "*"
 
 [dev-packages]
 
