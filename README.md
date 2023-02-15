@@ -67,7 +67,7 @@ If you'd like to develop on and build the riddc book, you should:
 - On Mac: download Homebrew and install with `brew bundle`
   * with the Mac M1 chip, run `export HDF5_DIR=/opt/homebrew/opt/hdf5`
 - On Windows:
-  * first download HDF5 from source: `https://www.hdfgroup.org/downloads/hdf5/source-code/`
+  * first download HDF5 from source: `https://support.hdfgroup.org/ftp/HDF5/current/bin/`
   * download Chocolatey and install with `choco install packages.config`
   
 ## Build the book
