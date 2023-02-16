@@ -8,6 +8,7 @@ bin/
 lib/
 etc/
 share/
+!plots/.gitkeep
 plots/
 pyvenv.cfg
-!plots/tide_plots/.gitkeep
+
