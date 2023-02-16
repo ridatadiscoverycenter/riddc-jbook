@@ -59,6 +59,7 @@ If you'd like to develop on and build the riddc book, you should:
 - In the local repo, `asdf local python 3.8.10` or `pyenv local 3.8.10` 
   * sets the python version for the repo
 - Start a virtual environment: 
+  * `pipx install virtualenv`
   * find the path to the desired python version with `which python`
   * copy the path and then `virtualenv -p <path> jbook3.8`
     * in this case, the name of the ve is `jbook3.8` 
