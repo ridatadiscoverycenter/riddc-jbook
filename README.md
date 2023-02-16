@@ -49,27 +49,32 @@ repository. Once approved, an admin member will merge into `main` and the change
 
 ## Usage
 
-### Build the environment and install dependencies
+### Build the environment
 
 If you'd like to develop on and build the riddc book, you should:
 
 - Clone this repository
 - `cd` to the repository
-- Use `asdf` to install the current version of Python supported by Google Colab
-  * `asdf plugin-add python`
-  * `asdf install python 3.8.10` - as of February, 2023, this is the version in Colab
-  * `asdf local python 3.8.10` - sets the python version for the repo
-- Start a pipenv virtual environment: 
-  `pipenv --python 3.8.10` - this will ingest the `requirements.txt` file and create a `Pipfile` containing the dependencies as well as the Python version for the environment. 
-- Activate the environment with `pipenv shell`
+- Use `asdf` or `pyenv` to install the current version of Python supported by Google Colab (as of February, 2023, the version in Colab was 3.8.10)
+- In the local repo, `asdf local python 3.8.10` or `pyenv local 3.8.10` 
+  * sets the python version for the repo
+- Start a virtual environment: 
+  * find the path to the desired python version with `which python`
+  * copy the path and then `virtualenv -p <path> jbook3.8`
+    * in this case, the name of the ve is `jbook3.8` 
+- Activate the environment with `source jbook3.8/bin/activate`
+- Verify that the python version inside the ve is correct with `python -V`
+  * if it shows a different version, check the path used to create the ve
+    * for example: `/Users/tdivoll/.pyenv/shims/python3.8`
 
-## Install system dependencies
+### Install system dependencies
 - On Mac: download Homebrew and install with `brew bundle`
   * with the Mac M1 chip, run `export HDF5_DIR=/opt/homebrew/opt/hdf5`
 - On Windows:
   * first download HDF5 from source: `https://support.hdfgroup.org/ftp/HDF5/current/bin/`
   * download Chocolatey and install with `choco install packages.config`
-  
+- `pip install -r requirements.txt`
+
 ## Build the book
 - (Recommended) Remove the existing `riddc/_build/` directory with `rm -rf 
 riddc/_build/`
