@@ -8,7 +8,4 @@ bin/
 lib/
 etc/
 share/
-!plots/.gitkeep
-plots/
 pyvenv.cfg
-
