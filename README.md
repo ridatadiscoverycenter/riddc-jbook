@@ -55,7 +55,6 @@ repository. Once approved, an admin member will merge into `main` and the change
 - On Windows:
   * first download HDF5 from source: `https://support.hdfgroup.org/ftp/HDF5/current/bin/`
   * download Chocolatey and install with `choco install packages.config`
-- `pip install -r requirements.txt`
 
 If you'd like to develop on and build the riddc book, you should:
 
@@ -72,6 +71,7 @@ If you'd like to develop on and build the riddc book, you should:
 - Verify that the python version inside the ve is correct with `python -V`
   * if it shows a different version, check the path used to create the ve
     * for example: `/Users/tdivoll/.pyenv/shims/python3.8`
+- `pip install -r requirements.txt`
 
 
 
