@@ -60,7 +60,7 @@ If you'd like to develop on and build the riddc book, you should:
 
 - Clone this repository
 - `cd` to the repository
-- Use `[asdf](https://asdf-vm.com)` or `[pyenv](https://github.com/pyenv/pyenv)` to install the current version of Python supported by Google Colab (as of February, 2023, the version in Colab was 3.8.10)
+- Use [asdf](https://asdf-vm.com) or [pyenv](https://github.com/pyenv/pyenv) to install the current version of Python supported by Google Colab (as of February, 2023, the version in Colab was 3.8.10)
 - In the local repo, `asdf local python 3.8.10` or `pyenv local 3.8.10` 
   * sets the python version for the repo
 - Start a virtual environment: 
