@@ -1,7 +1,5 @@
 .DS_Store
 .vscode
-.python-version
-.tool-versions
 *.ipynb_checkpoints
 *.png
 !images/*
@@ -12,3 +10,4 @@ lib/
 etc/
 share/
 pyvenv.cfg
+Brewfile.lock.json

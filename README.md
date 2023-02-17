@@ -15,7 +15,7 @@ Do not use `#` before a regular paragraph.
 
 For images, use Markdown syntax with caption, in addition add the caption as a blockquote.
 
-If your notebook was created in Colab, make sure you remove the first cell with the `Open in Colab` badge. Jupyter Book already has options to open the notebook in other platforms.
+If your notebook was created in Colab, make sure you remove the first cell with the `Open in Colab` badge.
 
 Example:
 ```md
@@ -49,17 +49,22 @@ repository. Once approved, an admin member will merge into `main` and the change
 
 ## Usage
 
-### Build the environment
+### Install system dependencies
+- On Mac: download Homebrew and install with `brew bundle`
+  * with the Mac M1 chip, run `export HDF5_DIR=/opt/homebrew/opt/hdf5`
+- On Windows:
+  * first download HDF5 from source: `https://support.hdfgroup.org/ftp/HDF5/current/bin/`
+  * download Chocolatey and install with `choco install packages.config`
+- `pip install -r requirements.txt`
 
 If you'd like to develop on and build the riddc book, you should:
 
 - Clone this repository
 - `cd` to the repository
-- Use `asdf` or `pyenv` to install the current version of Python supported by Google Colab (as of February, 2023, the version in Colab was 3.8.10)
+- Use `[asdf](https://asdf-vm.com)` or `[pyenv](https://github.com/pyenv/pyenv)` to install the current version of Python supported by Google Colab (as of February, 2023, the version in Colab was 3.8.10)
 - In the local repo, `asdf local python 3.8.10` or `pyenv local 3.8.10` 
   * sets the python version for the repo
 - Start a virtual environment: 
-  * `pipx install virtualenv`
   * find the path to the desired python version with `which python`
   * copy the path and then `virtualenv -p <path> jbook3.8`
     * in this case, the name of the ve is `jbook3.8` 
@@ -68,13 +73,7 @@ If you'd like to develop on and build the riddc book, you should:
   * if it shows a different version, check the path used to create the ve
     * for example: `/Users/tdivoll/.pyenv/shims/python3.8`
 
-### Install system dependencies
-- On Mac: download Homebrew and install with `brew bundle`
-  * with the Mac M1 chip, run `export HDF5_DIR=/opt/homebrew/opt/hdf5`
-- On Windows:
-  * first download HDF5 from source: `https://support.hdfgroup.org/ftp/HDF5/current/bin/`
-  * download Chocolatey and install with `choco install packages.config`
-- `pip install -r requirements.txt`
+
 
 ## Build the book
 - (Recommended) Remove the existing `riddc/_build/` directory with `rm -rf 
