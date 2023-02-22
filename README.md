@@ -70,7 +70,7 @@ If you'd like to develop on and build the riddc book, you should:
 - Activate the environment with `source jbook3.8/bin/activate`
 - Verify that the python version inside the ve is correct with `python -V`
   * if it shows a different version, check the path used to create the ve
-    * for example: `/Users/tdivoll/.pyenv/versions/python3.8.10/bin/python3.8`
+    * for example: `/Users/<username>/.pyenv/versions/python3.8.10/bin/python3.8`
 - `pip install -r requirements.txt`
 
 
