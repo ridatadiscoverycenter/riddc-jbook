@@ -1,12 +1,13 @@
 .DS_Store
 .vscode
-.python-version
 *.ipynb_checkpoints
+*.png
+!images/*
 riddc/_build
 .venv
 bin/
 lib/
 etc/
 share/
-plots/
 pyvenv.cfg
+Brewfile.lock.json
