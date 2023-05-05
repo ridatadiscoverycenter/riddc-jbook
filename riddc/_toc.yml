@@ -12,4 +12,5 @@ sections:
 - file: notebooks/fox-kemper/seth_summer_2020
 - file: notebooks/fox-kemper/noaa_coops_download
 - file: notebooks/fox-kemper/tide_data_fancy
+- file: notebooks/fox-kemper/modeling_river_runoff_using_precipitation_data_in_narragansett_bay
 - file: notebooks/fox-kemper/volume_viewer_converter
