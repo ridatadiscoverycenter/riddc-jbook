@@ -1,0 +1,16 @@
+[project]
+name = "riddc-jbook"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "datetime>=5.5",
+    "h5py>=3.11.0",
+    "jupyter-book>=0.15.1",
+    "matplotlib>=3.7.5",
+    "netcdf4>=1.7.2",
+    "numpy>=1.24.4",
+    "pandas>=2.0.3",
+    "tornado>=6.4.2",
+]

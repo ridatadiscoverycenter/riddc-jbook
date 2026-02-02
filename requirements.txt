@@ -1,11 +1,11 @@
 ﻿tornado >= 5.0
 jupyter-book >= 0.12
-matplotlib
-numpy
-pandas
+matplotlib==3.5.3
+numpy==1.21.6
+pandas==1.1.5
 datetime
 h5py
-netCDF4
+netCDF4==1.5.8
 ghp-import
 bash-kernel
 geopandas
