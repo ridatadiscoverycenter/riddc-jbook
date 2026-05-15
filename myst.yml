@@ -13,7 +13,7 @@ project:
     - file: README.md
     - title: RIDDC Notebooks
       children:
-        # - file: riddc/notebooks/fox-kemper/first_example_aquarius.ipynb
+        - file: riddc/notebooks/fox-kemper/first_example_aquarius.ipynb
         - file: riddc/notebooks/fox-kemper/ella_summer_2020.ipynb
         # - file: riddc/notebooks/fox-kemper/gtspp_data.ipynb
         - file: riddc/notebooks/fox-kemper/jonny_summer_2020.ipynb
@@ -24,7 +24,7 @@ project:
         - file: riddc/notebooks/fox-kemper/osom_regrid.ipynb
         - file: riddc/notebooks/fox-kemper/sea_surface_height.ipynb
         - file: riddc/notebooks/fox-kemper/seth_summer_2020.ipynb
-        # - file: riddc/notebooks/fox-kemper/tide_data_fancy.ipynb
+        - file: riddc/notebooks/fox-kemper/tide_data_fancy.ipynb
         - file: riddc/notebooks/fox-kemper/ultra_high_res_sst.ipynb
         # - file: riddc/notebooks/fox-kemper/volume_viewer_converter.ipynb
         # - file: riddc/notebooks/fox-kemper/wind_and_wind_stress.ipynb
