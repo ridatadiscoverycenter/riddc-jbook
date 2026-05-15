@@ -6,7 +6,7 @@
 # Book settings
 title                       : ""  # The title of the book. Will be placed in the left navbar.
 author                      : Rhode Island Data Discovery Center  # The author of the book
-copyright                   : "2020"  # Copyright year to be placed in the footer
+copyright                   : "2026"  # Copyright year to be placed in the footer
 logo                        : logo.svg  # A path to the book logo
 exclude_patterns            : []  # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
 
