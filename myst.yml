@@ -18,8 +18,7 @@ project:
         # - file: riddc/notebooks/fox-kemper/gtspp_data.ipynb
         - file: riddc/notebooks/fox-kemper/jonny_summer_2020.ipynb
         # - file: riddc/notebooks/fox-kemper/mapping_first_try.ipynb
-        - file: >-
-            riddc/notebooks/fox-kemper/modeling_river_runoff_using_precipitation_data_in_narragansett_bay.ipynb
+        - file: riddc/notebooks/fox-kemper/modeling_river_runoff_using_precipitation_data_in_narragansett_bay.ipynb
         - file: riddc/notebooks/fox-kemper/noaa_coops_download.ipynb
         - file: riddc/notebooks/fox-kemper/osom_intro.ipynb
         - file: riddc/notebooks/fox-kemper/osom_regrid.ipynb
@@ -34,6 +33,8 @@ project:
 
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  options:
+    logo: riddc/rinest_horizontal_nomargin_fullname-color.png
+    logo_url: https://web.uri.edu/rinsfepscor/rinest/
+    style: riddc/custom.css
+
